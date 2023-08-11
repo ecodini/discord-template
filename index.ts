@@ -9,9 +9,9 @@ console.log('BY ECODINI - FROM ARGENTINA TO THE WORLD');
 console.log('----------------------------------------');
 
 if (!process.env.TOKEN) {
-    console.error('FATAL ERROR: TOKEN MISSING');
+    console.error('[FATAL ERROR] TOKEN MISSING');
 }
 
 const bot = new DiscordBot(process.env.TOKEN!);
 
-bot.startBot().then(() => { console.log('BOT READY'); });
+bot.startBot().then();
