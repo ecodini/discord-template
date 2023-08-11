@@ -4,7 +4,7 @@ import * as dotenv from "dotenv";
 dotenv.config({ path: '.env' });
 
 console.log('----------------------------------------');
-console.log('SUPER BOT COOL v1.0.0');
+console.log('SUPER BOT TEMPLATE COOL v1.0.0');
 console.log('BY ECODINI - FROM ARGENTINA TO THE WORLD');
 console.log('----------------------------------------');
 
