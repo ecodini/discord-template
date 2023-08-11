@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "outDir": "build",
+      "target": "es2020",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "sourceMap": false,
+      "declaration": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": ["es2020"],
+      "resolveJsonModule": true,
+      "baseUrl": "src",
+      "paths": {
+        "@shared": ["./src/"]
+      }
+    },
+    "exclude": ["**/*.spec.ts"]
+  }
+  
